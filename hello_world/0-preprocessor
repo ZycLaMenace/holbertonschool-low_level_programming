@@ -1,3 +1,2 @@
 #!/bin/bash
-echo c > $CFILE
 gcc c

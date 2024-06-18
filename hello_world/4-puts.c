@@ -2,7 +2,7 @@
 
 /**
 * main - puts / printf
-* return: success
+* Return: return success or error
 */
 
 int main(void)

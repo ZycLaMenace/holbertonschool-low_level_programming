@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-/*
-* main -> print
-* return : success
-*/
+// main = puts / printf
+
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");

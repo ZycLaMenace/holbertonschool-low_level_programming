@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/**  main - Nombre random qui renvoie négative ou positif ou = 0
-*  Return: + ou - ou 0
+/* 
+* main - Nombre random qui renvoie négative ou positif ou = 0
+* Return: + ou - ou 0
 */
 int main(void)
 {
@@ -19,9 +20,9 @@ else if (n == 0)
 {
 printf("%d is zero\n", n);
 }
-else 
+else
 {
-printf("%d is positive\n", n);    
+printf("%d is positive\n", n);
 }
 return (0);
 }

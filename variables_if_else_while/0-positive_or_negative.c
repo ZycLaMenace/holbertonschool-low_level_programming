@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/* 
+/*
 * main - Nombre random qui renvoie négative ou positif ou = 0
 * Return: + ou - ou 0
 */

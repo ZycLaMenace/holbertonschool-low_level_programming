@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <time.h>
 
 /**
  * main - Desc de la fonction

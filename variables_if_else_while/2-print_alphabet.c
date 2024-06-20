@@ -1,4 +1,4 @@
-#include <stdio.h>s
+#include <stdio.h>
 #include <time.h>
 
 /**
@@ -11,7 +11,7 @@ int main(void)
 char letter;
 for (letter = 'a'; letter < 'z'; letter++)
 {
-	putchar('letter')
+	putchar(letter);
 }
 	return (0);
 }

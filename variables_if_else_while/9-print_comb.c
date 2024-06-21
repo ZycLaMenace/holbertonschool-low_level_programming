@@ -14,9 +14,9 @@ for (num = '0'; num <= '9'; num++)
 	if (num < '9')
 	{
 		putchar(',');
+		putchar(' ');
 		continue;
 	}
-	putchar(' ');
 }
 putchar('\n');
 	return (0);

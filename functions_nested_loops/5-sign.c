@@ -6,14 +6,14 @@
  * Return: Always 0 or return zero or return 1
  */
 
-int print_sign(int number)
+int print_sign(int n)
 {
-int number;
-	if (number = 0)
+int n;
+	if (n = 0)
 	{
 		return (0);
 	}
-	if (number < 0)
+	if (n < 0)
 	{
 		_putchar('-');
 		return (-1);

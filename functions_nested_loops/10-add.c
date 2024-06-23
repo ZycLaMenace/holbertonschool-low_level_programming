@@ -5,8 +5,8 @@
  * Return: la somme
  */
 
-int add(int, int)
+int add(int a, int b)
 {
-    int n = add;
-    return (n);
+	int n = a + b;
+	return (n);
 }

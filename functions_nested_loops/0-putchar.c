@@ -3,7 +3,7 @@
  * main - Ce que fais main
  * Return: 0 pour success
 */
- 
+
 int main(void)
 {
 	_putchar('_');

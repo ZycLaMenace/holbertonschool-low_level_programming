@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * islower - savoir si c'est miniscule
+ * _islower - savoir si c'est miniscule
  * @c: la variable
  * Return: Always 0 or 1 for lowercase
  */

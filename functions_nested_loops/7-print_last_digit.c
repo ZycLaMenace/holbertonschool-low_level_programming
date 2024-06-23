@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _int print_last_digit(int) - check the code
+ * print_last_digit - last digit
  * @ls: variable
- * Return: Always 0.
+ * Return: Always ls
  */
 
 int print_last_digit(int ls)

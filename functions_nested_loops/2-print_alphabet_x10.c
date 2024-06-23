@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Desc de la fonction
+ * print_alphabet_x10 - Desc de la fonction
  * Return: return rs
 */
 

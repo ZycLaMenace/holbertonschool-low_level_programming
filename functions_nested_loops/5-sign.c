@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code.
- * @c: varible
+ * print_sign - check the code.
+ * @n: varible
  * Return: Always 0 or return zero or return 1
  */
 

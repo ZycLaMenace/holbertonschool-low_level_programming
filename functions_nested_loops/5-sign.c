@@ -6,7 +6,7 @@
  * Return: Always 0 or return zero or return 1
  */
 
-int print_sign(int n)
+int print_sign(int number)
 {
 int number;
 	if (number = 0)

@@ -8,8 +8,9 @@
 
 int _abs(int a)
 {
-	if (a < 0){
+	if (a < 0)
+	{
 		a= -a;
-		return (0);
 	}
+	return (0);
 }

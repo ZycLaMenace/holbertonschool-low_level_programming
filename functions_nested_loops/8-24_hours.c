@@ -2,8 +2,6 @@
 
 /**
  * jack_bauer - Preciser chaque minute partant de 00:00 à 23:59
- * @h: variable
- * @m: variable
  * Return: les minutes de la journée
  */
 

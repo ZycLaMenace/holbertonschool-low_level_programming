@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * main - Desc de la fonction
+ * print_alphabet - Desc de la fonction
  * Return: return rs
 */
 
 void print_alphabet(void);
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
+int i;
+for (i = 'a'; i <= 'z'; i++)
 {
-	_putchar(letter);
+	_putchar(i);
 }
 	_putchar('\n');
 	return;

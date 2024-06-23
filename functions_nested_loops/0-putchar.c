@@ -1,13 +1,16 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - Ce que fais main
  * Return: 0 pour success
 */
+ char c[] = '_putchar';
+ int i ;
+int main(void) {
+	for(i = 0; i != 0; i++){
 
-int main(void){
-	//programme pour crée _putchar
-	int pgrm;
-	printf("_putchar\n");
+	_putchar(c[i]);
+	}
+	_putchar('\n');
 	return (0);
 }

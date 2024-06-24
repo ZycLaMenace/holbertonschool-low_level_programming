@@ -2,16 +2,17 @@
 
 /**
  * print_numbers - ecris les nombres
+ * @i; variable
  *
- * Return: Always 0.
  */
 
 void print_numbers(void)
 
 {
-	for (print_numbers = 0; print_numbers <= 9; print_numbers++)
+	int i;
+		for (i = 0; i <= 9; i++)
 	{
-		_putchar(print_numbers);
+		_putchar(i);
 	}
 	_putchar('\n');
 }

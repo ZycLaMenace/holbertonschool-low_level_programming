@@ -2,8 +2,9 @@
 
 /**
  * print_line - trace une ligne
- * @n; longuer de la ligne
- * Return; une ligne
+ * @n: longuer souhaité
+ * @linelen: longuer de la ligne
+ * Return; la ligne
  */
 
 void print_line(int n)

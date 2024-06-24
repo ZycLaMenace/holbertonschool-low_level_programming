@@ -3,7 +3,6 @@
 /**
  * print_line - trace une ligne
  * @n: longuer souhaité
- * @linelen: longuer de la ligne
  * Return; la ligne
  */
 

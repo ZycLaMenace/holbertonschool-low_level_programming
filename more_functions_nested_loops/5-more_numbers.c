@@ -13,15 +13,15 @@ void more_numbers(void)
 	for (loop10 = 0; loop10 < 10; loop10++)
 		{
 			int i, a;
-			for (i = '0'; i <='9'; i++)
+			for (i = 0; i <=9; i++)
 			{
-				_putchar(i);
+				_putchar(i + '0');
 			}
-			for (a = '0'; a <= '9'; a++)
+			for (a = 0; a <= 9; a++)
 			{
-				if (a > '9')
+				if (a > 9)
 				{
-					_putchar(a);
+					_putchar(a+ '0');
 				}
 			}
 	_putchar('\n');

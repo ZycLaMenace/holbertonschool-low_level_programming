@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - ecris les nombres
+ * print_most_numbers - ecris les nombres
  * @i; variable
  * Return; les nombres sans 2 et 4
  */

@@ -10,7 +10,7 @@
  {
 	int linelen;
 
-	for (linelen = 0; linelen <= n; linelen++)
+	for (linelen = 0; linelen < n; linelen++)
 	{
 	if (n <= 0)
 		{

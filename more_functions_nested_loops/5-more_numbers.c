@@ -3,7 +3,6 @@
 /**
  * more_numbers - ecris les nombres jsq 14
  * @i; variable
- * @a: variable 2
  * Return; compte jusqu'a 14
  */
 

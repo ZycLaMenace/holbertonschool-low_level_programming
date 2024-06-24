@@ -19,7 +19,6 @@ void more_numbers(void)
 			}
 			for (i = '0'; i <= '4'; i++)
 			{
-				int in = i % 10;
 				_putchar('1' + in);
 			}
 	_putchar('\n');

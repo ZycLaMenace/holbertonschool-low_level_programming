@@ -6,13 +6,18 @@
  * Return; les nombres sans 2 et 4
  */
 
-void more_numbers(void);
+void more_numbers(void)
 
 {
 	int i;
-		for (i = '0'; i <= '14'; i++)
+		for (i = '0'; i <= '9'; i++)
 	{
 		_putchar(i);
+	}
+	for (i = '0'; i <= '4'; i++)
+	{
+		int in = i % 10;
+		_putchar('1' + in);
 	}
 	_putchar('\n');
 }

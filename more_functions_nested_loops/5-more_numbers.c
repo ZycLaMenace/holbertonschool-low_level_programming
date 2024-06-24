@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * mosre_numbers - ecris les nombres
+ * more_numbers - ecris les nombres jsq 14
  * @i; variable
- * @a: variable
- * Return; les nombres sans 2 et 4
+ * @a: variable 2
+ * Return; compte jusqu'a 14
  */
 
 void more_numbers(void)

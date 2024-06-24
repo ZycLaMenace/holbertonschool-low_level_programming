@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_most_numbers - ecris les nombres
+ * mosre_numbers - ecris les nombres
  * @i; variable
+ * @a: variable
  * Return; les nombres sans 2 et 4
  */
 

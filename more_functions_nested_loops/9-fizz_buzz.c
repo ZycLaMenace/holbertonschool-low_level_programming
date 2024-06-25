@@ -24,14 +24,15 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
-		if (i == 100)
-		{
-			break;
-		}
 		else
 		{
 			printf("%d ", i);
 		}
+		if (i == 100)
+		{
+			break;
+		}
+
 	}
 	return (0);
 }

@@ -18,11 +18,14 @@ void print_diagonal(int n)
 	{
 		_putchar('\n');
 	}
+	else
+	{
 	for (alignement = 0; alignement < diaglen; alignement++)
 		{
 			_putchar(' ');
 		}
 	_putchar('\\');
 	_putchar('\n');
+	}
 	}
 }

@@ -2,7 +2,7 @@
 
 /**
  * main - fais une diagonale
- *@n: variable
+ *@i: variable
  * Return: Always 0.
  */
 
@@ -24,7 +24,10 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-		printf("%d ", i);
+		else
+		{
+			printf("%d ", i);
+		}
 	}
 	return (0);
 }

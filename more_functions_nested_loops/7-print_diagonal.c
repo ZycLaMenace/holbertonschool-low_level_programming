@@ -10,6 +10,7 @@ void print_diagonal(int n)
 
 {
 	int diaglen;
+	int alignement;
 
 	for (diaglen = 0; diaglen < n; diaglen++)
 	{
@@ -17,11 +18,14 @@ void print_diagonal(int n)
 	{
 		_putchar('\n');
 	}
-	else
-	{
-		_putchar('\\');
-		_putchar('\n');
-	}
+	for (alignement = 0; alignement < diaglen; alignement++)
+		{
+			_putchar(' ');
+		}
+	_putchar('\\');
+	
+	_putchar('\n');
+	
 	}
 	_putchar('\n');
 }

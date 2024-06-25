@@ -2,7 +2,7 @@
 
 /**
  * main - fais une diagonale
- *@i: variable
+ * @i: variable
  * Return: Always 0.
  */
 

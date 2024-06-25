@@ -11,16 +11,16 @@ void print_diagonal(int n)
 {
 	int diaglen;
 	int alignement;
-
-	for (diaglen = 0; diaglen < n; diaglen++)
-	{
+	
 	if (n <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-	for (alignement = 0; alignement < diaglen; alignement++)
+		for (diaglen = 0; diaglen < n; diaglen++)
+		{
+		for (alignement = 0; alignement < diaglen; alignement++)
 		{
 			_putchar(' ');
 		}

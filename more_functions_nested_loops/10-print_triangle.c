@@ -18,7 +18,7 @@ int hashtag;
 	}
 	else
     {
-        for (espace = 0; espace <= n; espace++)
+        for (espace = 1; espace <= n; espace++)
         {
         for (hashtag = 0; hashtag < n - espace; hashtag++)
         {

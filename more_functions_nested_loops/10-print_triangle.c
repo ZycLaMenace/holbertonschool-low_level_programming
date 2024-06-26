@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - fais une diagonale
- *
+ *@n: base du triangle
  * Return: Always le triangle
  */
 

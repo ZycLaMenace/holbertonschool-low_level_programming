@@ -17,18 +17,18 @@ int hashtag;
 		_putchar('\n');
 	}
 	else
-    {
-        for (espace = 1; espace <= n; espace++)
-        {
-        for (hashtag = 0; hashtag < n - espace; hashtag++)
-        {
-            _putchar(' ');
-        }
-        for (hashtag = 0; hashtag < espace; hashtag++)
+	{
+		for (espace = 1; espace <= n; espace++)
 		{
-            _putchar('#');
-        }
-        _putchar('\n');
-    }
+		for (hashtag = 0; hashtag < n - espace; hashtag++)
+		{
+			_putchar(' ');
+		}
+		for (hashtag = 0; hashtag < espace; hashtag++)
+		{
+			_putchar('#');
+		}
+		_putchar('\n');
+	}
 }
 }

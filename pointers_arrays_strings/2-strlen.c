@@ -13,5 +13,8 @@ int _strlen(char *s)
 	int longueur;
 	
 	for (longueur = 0; s[longueur] != '\0'; longueur++)
+	{
+		
+	}
 	return (longueur);
 }

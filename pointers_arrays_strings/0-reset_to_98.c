@@ -3,6 +3,7 @@
 
 /**
  * reset_to_98 - change la variable en 98
+ * @n: pointeur n
  * Return: Always 0.
  */
 

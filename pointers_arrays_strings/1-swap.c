@@ -3,12 +3,14 @@
 
 /**
  * swap_int - swap les pointer
- *
+ *@a: pointos 1
+ *@b: pointos 2
  * Return: Always 0.
  */
 
 
 void swap_int(int *a, int *b)
 {
-    swap_int(*a = *b, *b = *a);
+    *a = *b;
+    *b = *a;
 }

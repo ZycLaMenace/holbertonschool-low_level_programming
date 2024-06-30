@@ -13,9 +13,20 @@ int len = _strlen(str);
 int moit = len / 2;
 int txt;
 
+if (len % 2 == 0)
+{
 	for ( txt = moit; txt < len; txt++)
 	{
 		_putchar(str[txt]);
 	}
+}
+else
+{
+	txt++;
+	for ( txt = moit; txt < len; txt++)
+	{
+		_putchar(str[txt]);
+	}
+}
 _putchar('\n');
 }

@@ -16,10 +16,10 @@ char *end = s + _strlen(s) - 1;
 
 while (start < end)
 {
-    char tmp = *start;
-    *start = *end;
-    *end = tmp;
-    start++;
-    end--;
+	char tmp = *start;
+	*start = *end;
+	*end = tmp;
+	start++;
+	end--;
 }
 }

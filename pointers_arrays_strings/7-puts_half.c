@@ -1,0 +1,21 @@
+#include "main.h"
+#include "2-strlen.c"
+
+/**
+ * puts_half - ecrire apres la moitié
+ *@str: pointos
+ * Return: Always 0.
+ */
+
+void puts_half(char *str)
+{
+int len = _strlen(str);
+int moit = len / 2;
+int txt;
+
+	for ( txt = moit; txt < len; txt++)
+	{
+		_putchar(str[txt]);
+	}
+_putchar('\n');
+}

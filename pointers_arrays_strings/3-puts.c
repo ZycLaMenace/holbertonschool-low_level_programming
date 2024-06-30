@@ -2,7 +2,6 @@
 
 /**
  * _puts - ecrire txt
- - swap les pointer
  *@str: pointos
  * Return: Always 0.
  */

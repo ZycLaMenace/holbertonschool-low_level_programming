@@ -4,7 +4,6 @@
 
 /**
  * rev_string - ecrire qtt en reverse
- - swap les pointer
  *@s: pointos
  * Return: Always 0.
  */

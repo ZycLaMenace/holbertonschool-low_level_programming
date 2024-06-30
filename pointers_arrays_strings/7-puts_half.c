@@ -22,7 +22,7 @@ if (len % 2 == 0)
 }
 else
 {
-	for ( txt = moit++; txt < len; txt++)
+	for ( txt = moit + 1; txt < len; txt++)
 	{
 		_putchar(str[txt]);
 	}

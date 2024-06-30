@@ -15,14 +15,14 @@ int txt;
 
 if (len % 2 == 0)
 {
-	for ( txt = moit; txt < len; txt++)
+	for (txt = moit; txt < len; txt++)
 	{
 		_putchar(str[txt]);
 	}
 }
 else
 {
-	for ( txt = moit + 1; txt < len; txt++)
+	for (txt = moit + 1; txt < len; txt++)
 	{
 		_putchar(str[txt]);
 	}

@@ -3,7 +3,8 @@
 
 /**
  * _strcpy - string copy
- *
+ *@dest: destination de la copie
+ *@src: source de la copie
  * Return: Always dest(ination) string.
  */
 

@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcpy - string copy 
+ * _strcpy - string copy
  *
  * Return: Always dest(ination) string.
  */
@@ -18,5 +18,5 @@ char *start = dest;
 		src++;
 	}
 *dest = '\0';
-return start;
+return (start);
 }

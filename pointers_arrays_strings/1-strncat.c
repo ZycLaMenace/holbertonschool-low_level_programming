@@ -1,7 +1,8 @@
 #include "main.h"
 #include "2-strlen.c"
 
-/** _strncat - concatenates two strings
+/** 
+ * _strncat - concatenates two strings
  *@dest: destiantion string
  *@src: source
  * Return: Always 0.

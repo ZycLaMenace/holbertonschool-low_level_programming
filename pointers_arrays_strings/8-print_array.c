@@ -12,12 +12,21 @@ void print_array(int *a, int n)
 	int i;
 
 	for (i = 0; i < n; i++)
+<<<<<<< HEAD
     {
     	printf("%d", a[i]);
         if (i < n - 1)
     	{
             printf(", ");
         }
+=======
+	{
+		printf("%d", a[i]);
+		if (i < n - 1)
+		{
+			printf(", ");
+		}
+>>>>>>> b91971a1ab5f3163d18b1dda5a75e27874b13518
 	}
 	printf("\n");
 }

@@ -5,7 +5,7 @@
  *@n: byte
  *@dest: destination
  *@src: source
- * Return: memory area, a pointer to the memory area s
+ * Return: pasted memory
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)

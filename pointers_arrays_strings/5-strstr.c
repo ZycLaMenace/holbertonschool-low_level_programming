@@ -2,7 +2,7 @@
 #include <stddef.h>
 
 /**
- * _strpbrk - searches a string for any of a set of bytes
+ * _strstr - searches a string for any of a set of bytes
  * @haystack: string
  * @needle: substring correspondance
  * Return: s that matches one of the bytes in accept or if there is nothing NULL

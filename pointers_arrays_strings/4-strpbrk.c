@@ -3,7 +3,7 @@
 
 /**
  * _strpbrk - searches a string for any of a set of bytes
- * @s: string 
+ * @s: string
  * @accept: accepted char
  *
  * Return: s that matches one of the bytes in accept or if there is nothing NULL

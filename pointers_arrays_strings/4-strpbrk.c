@@ -2,11 +2,11 @@
 #include <stddef.h>
 
 /**
- * _strpbrk - searches a string for any of a set of bytes
+ * _strpbrk - string return null or the s w/ accept char
  * @s: string
  * @accept: accepted char
  *
- * Return: s that matches one of the bytes in accept or if there is nothing NULL
+ * Return: s 
  */
 
 char *_strpbrk(char *s, char *accept)

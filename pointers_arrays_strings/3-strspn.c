@@ -2,7 +2,7 @@
 
 /**
  * _strspn - search accepted char in string
- * @s: string 
+ * @s: string
  * @accept: accepted char
  *
  * Return: number of accepted char in string

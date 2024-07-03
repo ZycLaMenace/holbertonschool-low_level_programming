@@ -6,7 +6,7 @@
  * @s: string
  * @accept: accepted char
  *
- * Return: s 
+ * Return: s
  */
 
 char *_strpbrk(char *s, char *accept)

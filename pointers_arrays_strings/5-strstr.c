@@ -5,7 +5,7 @@
  * _strstr - searches a string for any of a set of bytes
  * @haystack: string
  * @needle: substring correspondance
- * Return: s that matches one of the bytes in accept or if there is nothing NULL
+ * Return: substring string
  */
 
 char *_strstr(char *haystack, char *needle)

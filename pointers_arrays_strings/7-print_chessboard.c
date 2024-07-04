@@ -3,10 +3,10 @@
 
 /**
  * print_chessboard - print a chess board
- * @a: tableau 
+ * @a: tableau
  * @i: ligne
  * @j: colonne
- * Return: the chess board
+ * 
  */
 
 void print_chessboard(char (*a)[8])

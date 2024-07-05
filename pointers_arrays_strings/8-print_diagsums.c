@@ -5,7 +5,7 @@
  * print_diagsums - donne la somme d'une diagonale du matrice
  * @a: matrice
  * @size: taille matrice
- * 
+ *
 */
 
 void print_diagsums(int *a, int size)

@@ -3,7 +3,6 @@
 
 /**
  * print_chessboard - print a chess board
- * @a: tableau
  * @i: ligne
  * @j: colonne
  * 

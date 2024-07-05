@@ -3,9 +3,7 @@
 
 /**
  * print_chessboard - print a chess board
- * @i: ligne
- * @j: colonne
- *
+ *@a: chessboard
  */
 
 void print_chessboard(char (*a)[8])

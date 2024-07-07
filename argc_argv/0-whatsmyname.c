@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
-	argc;
+	ignore(argc);
 
 return (EXIT_SUCCESS);
 }

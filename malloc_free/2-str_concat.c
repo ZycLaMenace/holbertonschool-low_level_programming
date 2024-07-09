@@ -22,7 +22,7 @@ if (s2 == 0)
 	while (s1[len1])
 		len1++;
 
-	while(s2[len2])
+	while (s2[len2])
 		len2++;
 
 concat = malloc((len1 + len2 + 1) * sizeof(char));

@@ -3,7 +3,7 @@
 
 /**
  * alloc_grid - 2D array of integers
- * @witdh: ligne
+ * @width: ligne
  * @height: colonne
  * Return: pointer to 2D array, NULL on failure
  */

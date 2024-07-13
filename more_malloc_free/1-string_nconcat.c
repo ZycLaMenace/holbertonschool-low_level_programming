@@ -2,16 +2,18 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - 
- * 
+ * string_nconcat - concat 2 string 
+ * @s1: string one
+ * @s2: string two
+ * @n; number of char
  *
- * Return:
+ * Return: concat
 */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	 char *concat;
-	int len1 = 0, len2 = 0;
+	unsigned int len1 = 0, len2 = 0;
 	unsigned int i, j;
 
 	if (s1 == NULL)

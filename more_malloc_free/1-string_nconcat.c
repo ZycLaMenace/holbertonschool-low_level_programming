@@ -2,10 +2,12 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - concat 2 string 
+ * string_nconcat - concat 2 string
  * @s1: string one
  * @s2: string two
  * @n; number of char
+ * @i: char of s1
+ * @j: char of s2
  *
  * Return: concat
 */

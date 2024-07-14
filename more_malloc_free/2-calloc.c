@@ -23,7 +23,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
     if (ptr == NULL)
         return (NULL);
 
-    // Initialiser la mémoire à zéro
     char_ptr = ptr;
     for (i = 0; i < total_size; i++)
         char_ptr[i] = 0;

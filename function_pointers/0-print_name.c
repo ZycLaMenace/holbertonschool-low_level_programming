@@ -5,7 +5,7 @@
  * print_name - imprime le nom
  * @name: pointeur pour le nom
  * @f: pointeur de fonction avec parametre char *
- * 
+ *
  * Return:
 */
 

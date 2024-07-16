@@ -7,7 +7,7 @@
  * @cmp: pointer to fuction for compare
  * @size: size of an array
  *
- * Return:
+ * Return: -1 or the i place on the array
 */
 int int_index(int *array, int size, int (*cmp)(int))
 {

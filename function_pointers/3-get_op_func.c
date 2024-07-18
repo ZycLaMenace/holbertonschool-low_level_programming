@@ -1,5 +1,12 @@
 #include "3-calc.h"
 
+/**
+ * get_op_func - Selects the correct ops to perform the operation
+ * @s: The operator passed as argument
+ *
+ * Return: A pointer to the function that corresponds to the operator
+ */
+
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
@@ -18,7 +25,7 @@ int (*get_op_func(char *s))(int, int)
 		{
 			return (ops[i].f);
 		}
-		i++;
+	i++;
 	}
 	return (0);
 }

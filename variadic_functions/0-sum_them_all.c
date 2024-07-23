@@ -1,11 +1,12 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
+#include <stdio.h>
 
 /**
  * sum_them_all - sum all integers
- * 
+ *
  * @n: integers
- * 
+ *
  * Return: O if n = 0 or sum of the integers
 */
 

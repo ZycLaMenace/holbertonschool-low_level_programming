@@ -1,11 +1,12 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
+#include <stdio.h>
 
 /**
  * print_numbers - print numbers with seperator
- * 
+ *
  * @n: integers
- * 
+ *
  * Return:
 */
 

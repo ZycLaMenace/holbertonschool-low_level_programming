@@ -5,7 +5,7 @@
  * print_dog - Imprime les données de struct dog
  * @d: Pointeur vers la structure dog à imprimer
  *
- * Description: Cette fonction imprime les informations d'un chien.
+ * Description: imprime les informations d'un chien.
  * Si un élément est NULL, elle imprime (nil) à la place.
  */
 void print_dog(struct dog *d)

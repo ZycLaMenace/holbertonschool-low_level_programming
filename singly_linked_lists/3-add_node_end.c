@@ -8,15 +8,13 @@
 */
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *new_node_end;
-	list_t *tail;
+	list_t *new;
+	list_t *lastnode = *head;
 	char *duplicate_str;
 
-	new_node_end = malloc(sizeof(list_t));
-	if (new_node_end == NULL)
-	{
+	new = malloc(sizeof(list_t));
+	if (new == NULL)
 		return (NULL);
-	}
 	duplicate_str = strdup(str);
 		if (duplicate_str == NULL)
 		{
@@ -25,18 +23,13 @@ list_t *add_node_end(list_t **head, const char *str)
 		}
 
 	if (*head == NULL)
-	{
-	*head = new_node_end;
-	}
+		*head = new;
 	else
 	{
-		tail = *head;
-		while (tail->next != NULL)
-		{
-			tail = tail->next;
-		}
-		tail->next = new_node_end;
+		while (lastnode->next != NULL)
+			lastnode = lastnode->next;
+		lastnode->next = new;
 	}
 
-	return (new_node_end);
+	return (new);
 }

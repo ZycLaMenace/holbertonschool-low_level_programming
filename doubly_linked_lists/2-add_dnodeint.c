@@ -1,31 +1,21 @@
 #include "lists.h"
 /**
- * add_node - add node
- * @head: head of node
- * @str: str to dupli
+ * add_dnodeint - add node at beginning
+ * @head: the list
+ * @n: the value
  *
- * Return: number of node or null
+ * Return: the node or null
 */
-list_t *add_node(list_t **head, const char *str)
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-	list_t *new = malloc((sizeof(list_t)));
-	char *duplicate;
+	dlistint_t *new = malloc((sizeof(dlistint_t)));
 
 	if (head == NULL || new == NULL)
-	{
-		free(new);
 		return (NULL);
-	}
 
-	duplicate = strdup(str);
-		if (duplicate == NULL)
-		{
-			free(duplicate);
-			return (NULL);
-		}
-	new->str = duplicate;
-	new->len = _strlen(duplicate);
+	new->n = n;
 	new->next = *head;
+	new->prev = NULL;
 
 	*head = new;
 

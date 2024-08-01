@@ -1,12 +1,12 @@
 #include "lists.h"
 /**
- * list_len - function that calcul of element
+ * dlistint_len - function that calcul of lenght of a d linked list
  *@h: head
  *
  * Return: number of element
  */
 
-size_t list_len(const list_t *h)
+size_t dlistint_len(const dlistint_t *h)
 {
 	size_t n = 0;
 

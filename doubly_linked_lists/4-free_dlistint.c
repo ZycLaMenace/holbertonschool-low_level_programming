@@ -1,13 +1,13 @@
 #include "lists.h"
 /**
- * free_list - function to free every node one by one
+ * free_dlistint - function to free every node one by one
  * @head: first node of the list
  *
 */
 
-void free_list(list_t *head)
+void free_dlistint(dlistint_t *head)
 {
-	list_t *temp;
+	dlistint_t *temp;
 
 	while (head != NULL)
 	{

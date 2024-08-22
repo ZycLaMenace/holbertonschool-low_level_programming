@@ -1,22 +1,29 @@
 #include "main.h"
-#include "2-strlen.c"
+
 /**
- * _strcat - concatenates two strings
- *@dest: destiantion string
- *@src: source
- * Return: Always 0.
+ * _strcat - function that concatenates two strings
+ *@dest:string to be overwritten (\0) and adding the src
+ *@src: string to be append to dest.
+ *
+ * Return: pointer to the resulting string dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-	char dest_len = _strlen(dest);
-	int i;
-	int n;
+	int i = 0;
+	int j = 0;
 
-   for (i = 0 ; i < n && src[i] != '\0' ; i++)
-   {
-	dest[dest_len + i] = src[i];
-	dest[dest_len + i] = '\0';
+	while (dest[i])
+	{
+		dest++;
+
 	}
-   return (dest);
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+	dest[i] = '\0';
+	return (dest);
 }

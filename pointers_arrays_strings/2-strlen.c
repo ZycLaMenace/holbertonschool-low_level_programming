@@ -1,20 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _strlen - swap les pointer
- *@s: pointos
- * Return: Always 0.
+ * _strlen - calculate the length of a string
+ *@s: string to be tested
+ * Return: length of string
  */
 
 int _strlen(char *s)
-
 {
-	int longueur;
+	int i;
 
-	for (longueur = 0; s[longueur] != '\0'; longueur++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-
 	}
-	return (longueur);
+	return (i);
 }

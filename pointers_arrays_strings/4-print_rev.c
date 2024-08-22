@@ -1,23 +1,23 @@
 #include "main.h"
 
 /**
- * print_rev - ecrire txt a l'envers
- *@s: pointos
- * Return: Always 0.
+ * print_rev - print a string in reverse mode
+ *@s: string to be printed
  */
 
 void print_rev(char *s)
 {
-	int txt;
+	int i = 0;
 
-	for (txt = 0; s[txt]; txt++)
+	while (s[i] != '\0')
 	{
+		i++;
 	}
-	txt--;
-	while (txt >= 0)
+	i--;
+	while (i >= 0)
 	{
-		_putchar(s[txt]);
-		txt--;
+		_putchar(s[i]);
+		i--;
 	}
 	_putchar('\n');
 }

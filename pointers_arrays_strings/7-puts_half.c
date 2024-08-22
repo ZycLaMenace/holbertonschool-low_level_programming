@@ -1,31 +1,44 @@
 #include "main.h"
-#include "2-strlen.c"
-
 /**
- * puts_half - ecrire apres la moitié
- *@str: pointos
- * Return: Always 0.
+ * puts_half - prints half of a string, followed by a new line.
+ * @str: string to be half printed
  */
 
 void puts_half(char *str)
 {
-int len = _strlen(str);
-int moit = len / 2;
-int txt;
+	int len = _strlen(str);
+	int half = len / 2;
+	int i;
 
-if (len % 2 == 0)
-{
-	for (txt = moit; txt < len; txt++)
+	if (len % 2 == 0)
 	{
-		_putchar(str[txt]);
+		for (i = half; i < len; i++)
+		{
+			_putchar(str[i]);
+		}
 	}
-}
-else
-{
-	for (txt = moit + 1; txt < len; txt++)
+	else
 	{
-		_putchar(str[txt]);
+		for (i = half + 1; i < len; i++)
+		{
+			_putchar(str[i]);
+		}
 	}
+	_putchar('\n');
 }
-_putchar('\n');
+
+/**
+ * _strlen - calculate the length of a string
+ *@s: string to be tested
+ * Return: length of string
+ */
+
+int _strlen(char *s)
+{
+	int i;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+	}
+	return (i);
 }

@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
- * _puts - ecrire txt
- *@str: pointos
- * Return: Always 0.
+ *_puts - uses char str as entry
+ * @str: string to be printed to stdout
+ *
+ * Description: prints string
  */
 
 void _puts(char *str)
 {
-	int txt;
+	int i;
 
-	for (txt = 0; str[txt]; txt++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(str[txt]);
+		_putchar(str[i]);
 	}
+
 	_putchar('\n');
 }

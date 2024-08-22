@@ -1,21 +1,21 @@
-#include "main.h"
-#include <stddef.h>
+#include <stdio.h>
 
 /**
- * _strstr - searches a string for any of a set of bytes
- * @haystack: string
- * @needle: substring correspondance
- * Return: substring string
+ * _strstr - locates a substring
+ * @haystack: the string to search
+ * @needle: the substring to find
+ *
+ * Return: a pointer to the beginning of the located substring,
+ *         or NULL if the substring is not found
  */
-
 char *_strstr(char *haystack, char *needle)
 {
-	while (*haystack)
+	while (*haystack != '\0')
 	{
 		int i = 0;
 		int j = 0;
 
-		while (needle[j] && haystack[i] == needle[j])
+		while (needle[j] != '\0' && haystack[i] == needle[j])
 		{
 			i++;
 			j++;
@@ -28,5 +28,6 @@ char *_strstr(char *haystack, char *needle)
 
 		haystack++;
 	}
+
 	return (NULL);
 }

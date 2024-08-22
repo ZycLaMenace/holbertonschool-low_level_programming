@@ -1,18 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * swap_int - swap les pointer
- *@a: pointos 1
- *@b: pointos 2
- * Return: Always 0.
+ * swap_int - swap the value of two integers
+ *@a: value to be swapped with b
+ *@b: value to be swapped with a
  */
 
 void swap_int(int *a, int *b)
 {
-	int tmp;
-
-	tmp = *a;
+	int temp = *a;
 	*a = *b;
-	*b = tmp;
+	*b = temp;
 }
